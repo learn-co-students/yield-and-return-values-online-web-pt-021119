@@ -12,4 +12,4 @@ end
 
 
 coll = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
-puts coll
+puts coll.to_s
